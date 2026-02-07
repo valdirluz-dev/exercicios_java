@@ -2,7 +2,7 @@ package curso_programacao;
 
 import java.util.Scanner;
 
-public class ExercicioContaBancaria {
+public class Main {
 	
 	public static void main (String[] args) {
 	    var sc = new Scanner (System.in);
