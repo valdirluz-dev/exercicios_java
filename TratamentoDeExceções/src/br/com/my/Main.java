@@ -3,11 +3,9 @@ package br.com.my;
 import java.util.Scanner;
 
 import exception.EmptyStorageException;
-import exception.UserNotFoundException;
-import exception.ValidatorException;
-import usermodel.UserModel;
-import uservalidator.UserInputHelper;
-import uservalidator.UserValidator;
+import exception.*;
+import usermodel.*;
+import uservalidator.*;
 
 public class Main {
 
@@ -22,21 +20,17 @@ public class Main {
             switch (MenuOption.values()[userInput - 1]) {
 
                 case SAVE -> {
-                    try {
+                  
                         UserModel user = inputHelper.readUserData(0); // 0 indica novo usuário
-                        UserValidator.validate(user);
                         dao.save(user);
                         System.out.printf("Usuário salvo %s%n", user);
-                    } catch (ValidatorException e) {
-                        System.out.println(e.getMessage());
-                    }
+                    
                 }
 
                 case UPDATE -> {
                     try {
                         long id = inputHelper.readId();
                         UserModel user = inputHelper.readUserData(id);
-                        UserValidator.validate(user);
                         dao.update(user);
                         System.out.printf("Usuário atualizado %s%n", user);
                     } catch (ValidatorException | UserNotFoundException | EmptyStorageException e) {

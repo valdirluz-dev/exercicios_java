@@ -1,25 +1,19 @@
 package uservalidator;
 
-import java.time.LocalDate;
-
 import exception.ValidatorException;
-import usermodel.UserModel;
 
 public class UserValidator {
 
-    public static void validate(UserModel user) throws ValidatorException {
-        if (user.getName() == null || user.getName().isBlank())
+    public static void validateName(String name) throws ValidatorException {
+        if (name == null || name.isBlank())
             throw new ValidatorException("Nome obrigatório.");
-        if (user.getName().length() < 2)
-            throw new ValidatorException("O nome deve ter pelo menos 2 caracteres.");
+        if (name.length() < 2)
+            throw new ValidatorException("O nome deve ter pelo menos 2 caracteres.");}
 
-        if (user.getEmail() == null || user.getEmail().isBlank())
+    public static void validateEmail(String email) {
+        if (email == null || email.isBlank())
             throw new ValidatorException("Email obrigatório.");
-        if (!user.getEmail().contains("@") || !user.getEmail().contains("."))
+        if (!email.contains("@") || !email.contains("."))
             throw new ValidatorException("Email inválido.");
-
-        LocalDate birthday = user.getBirthday();
-        if (birthday == null)
-            throw new ValidatorException("Data de nascimento obrigatória ou inválida.");
-    }
+        }
 }
