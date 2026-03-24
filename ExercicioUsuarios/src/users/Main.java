@@ -9,13 +9,14 @@ public class Main {
 
 		while(true){
 
-			System.out.print("sair (sim/não)? ");
-			var sair = sc.nextLine();
+			System.out.print("sair (0 = sim/ 1 = não)? ");
+			var sair = sc.nextInt();
+			sc.nextLine();
 
-			if (sair.equalsIgnoreCase("sim")) break;
-			else if (sair.equalsIgnoreCase("não")) {
+			if (sair == 0) break;
+			else if (sair == 1) {
 				
-				System.out.print("tipo de usuario: ");
+				System.out.print("tipo de usuario (Gerente, Atendente, Vendedor): ");
 				var user = sc.nextLine();
 				
 				String nome, email, senha;
