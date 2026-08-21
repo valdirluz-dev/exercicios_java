@@ -1,3 +1,4 @@
+/** Sinaliza que não existem usuários armazenados para consultar. */
 package exception;
 
 public class EmptyStorageException extends RuntimeException{

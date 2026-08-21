@@ -1,3 +1,4 @@
+/** Valida os dados de usuário e lança exceções quando necessário. */
 package uservalidator;
 
 import exception.ValidatorException;

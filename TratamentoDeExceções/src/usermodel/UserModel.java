@@ -1,3 +1,4 @@
+/** Representa os dados de um usuário no exercício de exceções. */
 package usermodel;
 
 import java.time.LocalDate;

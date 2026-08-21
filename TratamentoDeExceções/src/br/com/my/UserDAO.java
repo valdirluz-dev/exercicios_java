@@ -1,3 +1,4 @@
+/** Realiza operações de cadastro, consulta, alteração e remoção de usuários. */
 package br.com.my;
 
 import exception.EmptyStorageException;

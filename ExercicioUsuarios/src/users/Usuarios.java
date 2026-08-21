@@ -1,3 +1,4 @@
+/** Define a classe base e os comportamentos dos tipos de usuário do sistema. */
 package users;
 
 public abstract class Usuarios {//impede a criação de um usuário sem cargos

@@ -1,3 +1,4 @@
+/** Representa as operações matemáticas disponíveis na calculadora. */
 package list;
 
 import java.util.function.BiFunction;

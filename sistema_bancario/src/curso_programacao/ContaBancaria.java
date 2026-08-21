@@ -1,3 +1,4 @@
+/** Modela uma conta usada no sistema bancário de estudo. */
 package curso_programacao;
 
 public class ContaBancaria {

@@ -1,3 +1,4 @@
+/** Representa o modelo de usuário persistido pela aplicação. */
 package br.com.my.model;
 
 import java.time.LocalDate;

@@ -1,3 +1,4 @@
+/** Demonstra polimorfismo ao executar operações por uma interface comum. */
 package poo;
 
 public class TestePolimorfismo {

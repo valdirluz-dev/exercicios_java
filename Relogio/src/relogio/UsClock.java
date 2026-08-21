@@ -1,3 +1,4 @@
+/** Implementa o relógio com exibição no padrão norte-americano. */
 package relogio;
 
 public non-sealed class UsClock extends Clock {

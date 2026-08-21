@@ -1,3 +1,4 @@
+/** Centraliza a leitura e conversão das entradas do usuário. */
 package uservalidator;
 
 import java.time.LocalDate;

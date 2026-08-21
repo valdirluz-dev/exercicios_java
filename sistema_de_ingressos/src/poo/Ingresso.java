@@ -1,3 +1,4 @@
+/** Modela ingressos comuns, meia-entrada e ingressos para família. */
 package poo;
 
 public class Ingresso{

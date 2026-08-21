@@ -1,3 +1,4 @@
+/** Representa a categoria de despesas culturais para o cálculo do imposto. */
 package imposto;
 
 public class Cultura implements IR{

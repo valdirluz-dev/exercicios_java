@@ -1,3 +1,4 @@
+/** Representa as operações disponíveis para o treino de arrays. */
 package list;
 
 import java.util.function.BiFunction;

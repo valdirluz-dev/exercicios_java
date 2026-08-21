@@ -1,3 +1,4 @@
+/** Transporta os dados de usuário entre as camadas da aplicação. */
 package br.com.my.dto;
 
 import java.time.LocalDate;

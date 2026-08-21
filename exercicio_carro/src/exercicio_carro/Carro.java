@@ -1,3 +1,4 @@
+/** Representa um carro para exercitar atributos e métodos de uma classe. */
 package exercicio_carro;
 
 

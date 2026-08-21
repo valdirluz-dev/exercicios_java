@@ -1,3 +1,4 @@
+/** Implementa o relógio com exibição no padrão brasileiro. */
 package relogio;
 
 public non-sealed class BrClock extends Clock {

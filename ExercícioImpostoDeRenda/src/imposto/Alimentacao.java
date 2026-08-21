@@ -1,3 +1,4 @@
+/** Representa a categoria de despesas de alimentação para o cálculo do imposto. */
 package imposto;
 
 public class Alimentacao implements IR {

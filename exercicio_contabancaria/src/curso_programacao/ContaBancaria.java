@@ -1,3 +1,4 @@
+/** Modela uma conta bancária e suas operações financeiras básicas. */
 package curso_programacao;
 
 public class ContaBancaria {

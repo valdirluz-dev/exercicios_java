@@ -1,3 +1,4 @@
+/** Organiza os números e resultados retornados pela calculadora. */
 package calculadora;
 import java.util.ArrayList;
 import java.util.Arrays;

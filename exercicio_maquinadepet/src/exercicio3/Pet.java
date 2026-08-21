@@ -1,3 +1,4 @@
+/** Representa o pet que será colocado na máquina de banho. */
 package exercicio3;
 
 public class Pet {

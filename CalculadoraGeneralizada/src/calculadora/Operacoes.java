@@ -1,3 +1,4 @@
+/** Reúne as operações matemáticas usadas pela calculadora. */
 package calculadora;
 
 import java.util.List;

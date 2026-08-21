@@ -1,3 +1,4 @@
+/** Implementa o envio de mensagens de marketing por redes sociais. */
 package sistema;
 
 public class RedesSociais implements Mensagens{

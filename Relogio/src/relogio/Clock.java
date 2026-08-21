@@ -1,3 +1,4 @@
+/** Define a abstração comum dos relógios do exercício. */
 package relogio;
 
 public abstract sealed class Clock permits UsClock, BrClock {

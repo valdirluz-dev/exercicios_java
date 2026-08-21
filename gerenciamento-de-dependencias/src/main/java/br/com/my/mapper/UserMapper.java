@@ -1,3 +1,4 @@
+/** Define o mapeamento automático entre UserModel e UserDTO. */
 package br.com.my.mapper;
 
 import org.mapstruct.Mapper;

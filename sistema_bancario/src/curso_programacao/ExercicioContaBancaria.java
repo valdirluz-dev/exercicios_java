@@ -1,3 +1,4 @@
+/** Executa operações de depósito, saque e consulta de uma conta bancária. */
 package curso_programacao;
 
 import java.util.Scanner;

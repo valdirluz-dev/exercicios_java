@@ -1,3 +1,4 @@
+/** Modela uma máquina de banho com água, shampoo e estados de uso. */
 package exercicio3;
 
 public class MaquinaDePet {

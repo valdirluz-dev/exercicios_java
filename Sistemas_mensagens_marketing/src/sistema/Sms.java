@@ -1,3 +1,4 @@
+/** Implementa o envio de mensagens de marketing por SMS. */
 package sistema;
 
 public class Sms implements Mensagens{

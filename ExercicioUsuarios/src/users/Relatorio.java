@@ -1,3 +1,4 @@
+/** Armazena e apresenta informações de vendas e caixa. */
 package users;
 
 public class Relatorio {

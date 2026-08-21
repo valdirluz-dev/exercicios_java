@@ -1,3 +1,4 @@
+/** Representa a categoria de despesas de vestuário para o cálculo do imposto. */
 package imposto;
 
 public class Vestuario implements IR {

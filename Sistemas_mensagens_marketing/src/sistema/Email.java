@@ -1,3 +1,4 @@
+/** Implementa o envio de mensagens de marketing por e-mail. */
 package sistema;
 
 

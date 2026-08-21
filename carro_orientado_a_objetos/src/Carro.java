@@ -1,4 +1,4 @@
-
+/** Modela o estado e os comandos básicos de um carro. */
 public class Carro {
 	
 	private boolean ligado = false;
